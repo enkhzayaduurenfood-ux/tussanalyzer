@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From chaos to compliant — tuss.io</title>
+  <meta name="description" content="Hundreds of documents, thousands of clauses. tuss.io reads, maps and cross-checks every one against the laws and standards you answer to — gap analysis in about an hour.">
+  <meta name="theme-color" content="#F6F8FC">
+  <meta property="og:title" content="From chaos to compliant — tuss.io">
+  <meta property="og:description" content="Every clause read, mapped and traced. Gap analysis in about an hour, not 2–4 weeks.">
+  <meta property="og:image" content="assets/img/logo/logo-horizontal-on-navy.png">
+  <link rel="icon" type="image/png" href="assets/img/logo/icon-on-navy.png">
+  <link rel="alternate" hreflang="en" href="story.html">
+  <link rel="alternate" hreflang="mn" href="story-mn.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/story.css?v=1">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></symbol>
+    <symbol id="i-compare" viewBox="0 0 24 24"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><path d="M11 18H8a2 2 0 0 1-2-2V9"/></symbol>
+    <symbol id="i-list-checks" viewBox="0 0 24 24"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><polygon points="7 4 19 12 7 20 7 4"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 12"><path d="M1 6h22"/><path d="m18 1 5 5-5 5"/></symbol>
+  </defs>
+</svg>
+
+<div class="progress" aria-hidden="true"><i></i></div>
+
+<header class="sh">
+  <a class="sh__logo" href="index.html" aria-label="tuss.io home"><img src="assets/img/logo/logo-horizontal-navy-transparent.png" alt="tuss.io" width="140" height="30"></a>
+  <nav class="chapters" aria-label="Story chapters">
+    <a href="#top" data-ch="question"><span>01</span> Question</a>
+    <a href="#top" data-ch="chaos"><span>02</span> Chaos</a>
+    <a href="#top" data-ch="tuss"><span>03</span> tuss.io</a>
+    <a href="#top" data-ch="clarity"><span>04</span> Clarity</a>
+    <a href="#contact" data-ch="contact"><span>05</span> Contact</a>
+  </nav>
+  <div class="sh__right">
+    <div class="lang" role="group" aria-label="Language">
+      <a href="story.html" aria-current="true" lang="en">EN</a>
+      <a href="story-mn.html" lang="mn">MN</a>
+    </div>
+    <a class="btn btn--navy btn--sm" href="https://commerce-api.tuss.io/api/public/crm/forms/OxT2QMDGl-YflhStyegdkvYG/" target="_blank" rel="noopener">Book a meeting</a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- ============ Scroll story (pinned) ============ -->
+  <section class="story" aria-label="The tuss.io story">
+    <div class="stage">
+      <div class="stage__grid" aria-hidden="true"></div>
+      <div class="glow glow--blue" aria-hidden="true"></div>
+      <div class="glow glow--amber" aria-hidden="true"></div>
+      <div class="glow glow--red" aria-hidden="true"></div>
+      <div class="glow glow--calm" aria-hidden="true"></div>
+
+      <div class="docs" aria-hidden="true"></div>
+      <svg class="links" aria-hidden="true"></svg>
+      <div class="tags" aria-hidden="true"></div>
+
+      <div class="counter" aria-hidden="true"><b data-counter>0</b><span>clause links<br>to check by hand</span></div>
+
+      <!-- laptop -->
+      <div class="laptop" aria-hidden="true">
+        <div class="laptop__glow"></div>
+        <div class="laptop__lid">
+          <i class="laptop__cam"></i>
+          <div class="screen">
+            <div class="screen__off"></div>
+            <div class="screen__bar">
+              <span class="screen__dots"><i></i><i></i><i></i></span>
+              <img src="assets/img/logo/icon-transparent.png" alt="">
+              tuss.io
+              <small>Compliance analysis</small>
+            </div>
+            <div class="screen__state screen__state--run">
+              <div class="drop">
+                <span class="drop__k">AI analysis</span>
+                <span class="drop__t">Analyzing your documents</span>
+                <span class="drop__n"><b data-files>0</b> / 1,284 files</span>
+                <div class="bar"><i></i></div>
+                <div class="bar__pct"><span>Progress</span><span data-pct>0%</span></div>
+              </div>
+              <ul class="steps">
+                <li><i></i>Extracting clauses</li>
+                <li><i></i>Mapping to regulations</li>
+                <li><i></i>Finding gaps</li>
+                <li><i></i>Linking evidence</li>
+              </ul>
+            </div>
+            <div class="screen__state screen__state--done">
+              <div class="done__head">
+                <span class="done__check"><svg class="ic"><use href="#i-check"/></svg></span>
+                <div><b>Analysis complete</b><span>1,284 files · 3,412 clauses · 58 min</span></div>
+              </div>
+              <div class="stackbar"><i></i><i></i><i></i></div>
+              <div class="legend">
+                <span style="--c:var(--ok)">Compliant <b>82%</b></span>
+                <span style="--c:var(--bad)">Non-compliant <b>11%</b></span>
+                <span style="--c:var(--amber)">Clarify <b>7%</b></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="laptop__base"></div>
+      </div>
+
+      <!-- results that fly out of the screen -->
+      <div class="results" aria-hidden="true">
+        <article class="res">
+          <div class="res__k">Gap analysis <em>ISO 27001</em></div>
+          <div class="res__score"><span class="ring" style="--p:87" data-v="87%"></span><p>Overall alignment across 93 Annex A controls</p></div>
+          <ul class="rows">
+            <li><span>A.5.1 Policies for infosec</span><b class="pill pill--ok">Compliant</b></li>
+            <li><span>A.8.12 Data leakage prevention</span><b class="pill pill--bad">Gap</b></li>
+            <li><span>A.5.23 Cloud services</span><b class="pill pill--warn">Clarify</b></li>
+          </ul>
+        </article>
+        <article class="res">
+          <div class="res__k">Clause map <em>Traced</em></div>
+          <h3>Every finding linked to its source</h3>
+          <div class="map">
+            <div class="map__row"><span>Policy §4.2</span><svg><use href="#i-link"/></svg><span>Data Law Art. 12</span></div>
+            <div class="map__row"><span>Contract 9.3</span><svg><use href="#i-link"/></svg><span>ISO A.5.20</span></div>
+            <div class="map__row"><span>Backup SOP §2</span><svg><use href="#i-link"/></svg><span>ISO A.8.13</span></div>
+          </div>
+          <div class="res__foot"><b>3,412</b> clauses linked to <b>186</b> requirements</div>
+        </article>
+        <article class="res">
+          <div class="res__k">Action plan <em>14 tasks</em></div>
+          <h3>Gaps turned into owned tasks</h3>
+          <div class="task"><i></i><span>Update DLP procedure</span><small>Nov 4</small><b>AE</b></div>
+          <div class="task"><i></i><span>Add vendor clause 9.3</span><small>Nov 8</small><b>BT</b></div>
+          <div class="task"><i></i><span>Upload backup test evidence</span><small>Nov 12</small><b>OS</b></div>
+        </article>
+      </div>
+
+      <!-- captions -->
+      <div class="caps">
+        <div class="cap cap--top cap--hero" data-cap="1">
+          <span class="cap__label">[ a question for compliance teams ]</span>
+          <h1 class="cap__h">Does your company run on <em>hundreds</em> of documents?</h1>
+          <p class="cap__sub">Policies. Contracts. Procedures. Regulations. Evidence.</p>
+        </div>
+        <div class="cap cap--mid" data-cap="2">
+          <span class="cap__label">[ the reality ]</span>
+          <h2 class="cap__h">And someone has to read <em>every clause.</em></h2>
+          <p class="cap__sub">Every policy against every law. Every contract against every standard. Line by line, by hand.</p>
+        </div>
+        <div class="cap cap--mid cap--wide" data-cap="3">
+          <span class="cap__label">[ the ripple effect ]</span>
+          <h2 class="cap__h">One change. <em>A hundred</em> connections.</h2>
+          <p class="cap__sub">An amended regulation touches dozens of documents. Miss one link and it becomes an audit finding. That's why a gap analysis takes <b>2–4 weeks</b>.</p>
+        </div>
+        <div class="cap cap--top" data-cap="4">
+          <span class="cap__label">[ enter tuss.io ]</span>
+          <h2 class="cap__h">Or just <em>tuss it.</em></h2>
+          <p class="cap__sub">Drop everything into tuss.io. AI reads, maps and cross-checks every clause for you.</p>
+        </div>
+        <div class="cap cap--top cap--wide" data-cap="5">
+          <span class="cap__label">[ the result ]</span>
+          <h2 class="cap__h">Systemized. Analyzed. <em>Traced to the clause.</em></h2>
+          <p class="cap__sub">A full gap analysis in about an hour, not 2–4 weeks.</p>
+        </div>
+      </div>
+
+      <div class="hint" aria-hidden="true"><span>Scroll</span><i></i></div>
+      <div class="hud" aria-hidden="true"><b data-hud-n>01</b> / 05 — <span data-hud-t>Question</span></div>
+    </div>
+  </section>
+
+  <!-- ============ Manifesto ============ -->
+  <section class="sec manifesto" aria-labelledby="mf-h">
+    <div class="wrap">
+      <span class="eyebrow">[ what tuss.io does ]</span>
+      <h2 id="mf-h" class="sr-only">What tuss.io does</h2>
+      <p data-words>tuss.io reads your policies, contracts and evidence, maps every clause to the <span class="k">laws, regulations and standards</span> you answer to, and shows you exactly where the <span class="k">gaps</span> are. Your team stops searching and starts fixing.</p>
+    </div>
+  </section>
+
+  <!-- ============ Marquee ============ -->
+  <section class="marquee" aria-label="Capabilities">
+    <div class="mq" data-mq="-1"><span>Gap analysis</span><span>Document analysis</span><span>AI compliance</span><span>Gap analysis</span><span>Document analysis</span><span>AI compliance</span></div>
+    <div class="mq mq--out" data-mq="1"><span>Task management</span><span>Evidence tracking</span><span>Regulation mapping</span><span>Task management</span><span>Evidence tracking</span><span>Regulation mapping</span></div>
+  </section>
+
+  <!-- ============ How it works ============ -->
+  <section class="sec how" aria-labelledby="how-h">
+    <div class="wrap">
+      <div class="how__head reveal-up">
+        <h2 id="how-h">Three steps. No fuss.</h2>
+        <p>No spreadsheets, no week-long reading marathons. Just upload, let tuss.io do the cross-checking, and act on what it finds.</p>
+      </div>
+      <div class="how__grid">
+        <article class="step reveal-up">
+          <span class="step__ic"><svg class="ic"><use href="#i-upload"/></svg></span>
+          <span class="step__n">01</span>
+          <h3>Upload your documents</h3>
+          <p>Policies, contracts, procedures and evidence, in the formats you already use.</p>
+        </article>
+        <article class="step reveal-up">
+          <span class="step__ic"><svg class="ic"><use href="#i-compare"/></svg></span>
+          <span class="step__n">02</span>
+          <h3>tuss.io maps every clause</h3>
+          <p>AI compares each clause with the laws, regulations and standards that apply to you.</p>
+        </article>
+        <article class="step reveal-up">
+          <span class="step__ic"><svg class="ic"><use href="#i-list-checks"/></svg></span>
+          <span class="step__n">03</span>
+          <h3>Fix gaps with owned tasks</h3>
+          <p>Every finding is traced to its source and becomes a task with an owner and a due date.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Contact ============ -->
+  <section class="sec contact" id="contact" aria-labelledby="ct-h">
+    <div class="contact__card reveal-up">
+      <img class="contact__mark" src="assets/img/logo/icon-transparent.png" alt="">
+      <span class="eyebrow">[ let's talk ]</span>
+      <h2 id="ct-h">Want to see it on <em>your</em> documents?</h2>
+      <p>Book a short meeting with our team. We'll show you how tuss.io analyzes your own policies and contracts, and answer every question you have.</p>
+      <div class="contact__cta">
+        <a class="btn btn--amber btn--lg" href="https://commerce-api.tuss.io/api/public/crm/forms/OxT2QMDGl-YflhStyegdkvYG/" target="_blank" rel="noopener">Book a meeting <svg class="ic"><use href="#i-arrow-right"/></svg></a>
+        <a class="btn btn--ghost-light btn--lg" href="https://app.storylane.io/share/jzox4y8nrvfq" target="_blank" rel="noopener"><svg class="ic"><use href="#i-play"/></svg> Watch the demo</a>
+      </div>
+      <a class="contact__mail" href="mailto:info@tuss.io"><svg class="ic"><use href="#i-mail"/></svg> info@tuss.io</a>
+    </div>
+  </section>
+</main>
+
+<footer class="sf">
+  <div class="sf__in">
+    <img src="assets/img/logo/logo-horizontal-navy-transparent.png" alt="tuss.io" width="130" height="28">
+    <span class="sf__tag">Don't fuss. Just tuss.</span>
+    <nav class="sf__links" aria-label="Footer">
+      <a href="index.html">Main website</a>
+      <a href="mailto:info@tuss.io">info@tuss.io</a>
+      <span style="display:inline-flex;align-items:center;min-height:44px">© 2026 TUS Solution LLC</span>
+    </nav>
+  </div>
+</footer>
+
+<script type="application/json" id="story-data">
+{
+  "chapters": { "question": "Question", "chaos": "Chaos", "tuss": "tuss.io", "clarity": "Clarity", "contact": "Contact" },
+  "kinds": { "policy": "POLICY", "contract": "CONTRACT", "law": "LAW", "standard": "STANDARD", "procedure": "PROCEDURE", "evidence": "EVIDENCE" },
+  "docs": [
+    ["policy", "Information Security Policy"], ["contract", "Vendor Services Agreement"], ["law", "Personal Data Protection Law"],
+    ["standard", "ISO/IEC 27001:2022"], ["procedure", "AML / KYC Procedure"], ["evidence", "Backup Test Report"],
+    ["law", "Labour Law"], ["policy", "Code of Conduct"], ["contract", "Cloud Hosting Contract"],
+    ["procedure", "Incident Response Plan"], ["standard", "ISO 37001 Anti-bribery"], ["evidence", "Internal Audit 2025"],
+    ["policy", "Access Control Policy"], ["law", "Cybersecurity Law"], ["contract", "NDA Template"],
+    ["procedure", "Risk Assessment Method"], ["evidence", "Training Records"], ["policy", "ESG Policy"],
+    ["standard", "ISO 9001 Quality"], ["law", "Anti-Corruption Law"], ["procedure", "Change Management"],
+    ["contract", "Employment Contract"], ["evidence", "Board Resolution"], ["policy", "Data Retention Policy"]
+  ],
+  "tags": [
+    ["bad", "Conflict: §4.2 vs Art. 12"], ["warn", "Outdated version"], ["", "Clause 9.3 ↔ ISO A.5.20"],
+    ["bad", "Missing evidence"], ["warn", "Which one applies?"], ["", "Art. 31 ↔ Policy §7"],
+    ["warn", "Owner unknown"], ["bad", "Deadline missed"]
+  ]
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/story.js?v=1"></script>
+</body>
+</html>
